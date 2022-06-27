@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="500" KeyDown="Window_KeyDown">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Border Background="Aqua" Grid.ColumnSpan="4" Margin="5,10,-0.4,0" Grid.RowSpan="5"/>
+        <Button x:Name="res" Content="restart" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" Margin="9.8,44,0.4,38" Click="res_Click"/>
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center" x:Name="b11" Background="Azure" Grid.Column="0" Grid.Row="1" Margin="9.6,10"/>
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center" x:Name="b12" Background="Azure" Grid.Column="0" Grid.Row="2" Margin="9.6,10"/>
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center" x:Name="b13" Background="Azure" Grid.Column="0" Grid.Row="3" Margin="9.6,10"/>
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center" x:Name="b14" Background="Azure" Grid.Column="0" Grid.Row="4" Margin="9.6,10"/>
+
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center"  x:Name="b21" Background="Azure" Grid.Column="1" Grid.Row="1" Margin="9.6,10"/>
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center"  x:Name="b22" Background="Azure" Grid.Column="1" Grid.Row="2" Margin="9.6,10"/>
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center"  x:Name="b23" Background="Azure" Grid.Column="1" Grid.Row="3" Margin="9.6,10"/>
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center" x:Name="b24" Background="Azure" Grid.Column="1" Grid.Row="4" Margin="9.6,10"/>
+
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center" x:Name="b31" Background="Azure" Grid.Column="2" Grid.Row="1" Margin="9.6,10"/>
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center" x:Name="b32" Background="Azure" Grid.Column="2" Grid.Row="2" Margin="9.6,10" />
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center" x:Name="b33" Background="Azure" Grid.Column="2" Grid.Row="3" Margin="9.6,10"/>
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center" x:Name="b34" Background="Azure" Grid.Column="2" Grid.Row="4" Margin="9.6,10" />
+
+
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center" x:Name="b41" Background="Azure" Grid.Column="3" Grid.Row="1" Margin="9.6,10"/>
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center" x:Name="b42" Background="Azure" Grid.Column="3" Grid.Row="2" Margin="9.6,10"/>
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center" x:Name="b43" Background="Azure" Grid.Column="3" Grid.Row="3" Margin="9.6,10"/>
+        <TextBlock Text="0" FontSize="55" TextAlignment="Center" x:Name="b44" Background="Azure" Grid.Column="3" Grid.Row="4" Margin="9.6,10"/>
+
+    </Grid>
+</Window>
